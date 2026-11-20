@@ -1,0 +1,24 @@
+BASELINE — ACTION REQUIRED BEFORE SUBMISSION
+
+The PDF handout reports these expected Ruff results for legacy_fees.py:
+  6 PLR2004 magic-value-comparison
+  2 F401 unused-import
+  1 ARG001 unused-function-argument
+  1 B006 mutable-argument-default
+  1 C901 complex-structure
+  1 E711 none-comparison
+  1 E712 true-false-comparison
+  1 F841 unused-variable
+  1 N802 invalid-function-name
+  1 PLR0913 too-many-arguments
+  TOTAL 16
+
+IMPORTANT: This section is TRANSCRIBED FROM THE LAB, not actual tool output.
+Ruff and Pylint could not be installed in the preparation environment (network unavailable).
+
+Run in the week5 folder and REPLACE this placeholder with the real complete output:
+  ruff check --config pyproject.before.toml legacy_fees.py
+  ruff check --config pyproject.before.toml legacy_fees.py --statistics
+  pylint legacy_fees.py
+
+Record Ruff version, Pylint version and Pylint score as reported by your own tools.
